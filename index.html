@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="./src/imagens/SeekPng.com_sailor-moon-luna-png_3234009.png" type="image/x-icon">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="./src/css/reset.css">
+
+		<link rel="stylesheet" href="./src/css/estilos.css">
+
+
+		<link rel="stylesheet" href="./src/css/responsivo.css">
+
+		<title>Sailor Moon - the Movie</title>
+	</head>
+	<body>
+		<div class="fundo-video">
+			<video class="video" autoplay loop muted>
+				<source src="./src/video/trailer sailor moon cosmos.mp4" type="video/mp4" />
+			</video>
+		</div>
+
+		<header class="cabecalho">
+			<a>
+				<img class="logo" src="./src/imagens/giphy.gif" alt="logo sailor moon" />
+			</a>
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Details</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="container">
+			<div class="informacoes">
+				<img class="imagem-titulo" src="./src/imagens/pngegg (1).png" alt="imagem do título do filme" />
+				<p class="descricao">The Sailor Senshi team up with the Sailor Starlights to stop Sailor Galaxia from conquering the galaxy. "Pretty Guardian Sailor Moon Cosmos The Movie" is a two part movie set to adapt the final arc of the Sailor Moon manga. It is a direct sequel to Sailor Moon Eternal and is part of the Sailor Moon Crystal franchise acting as Crystal Season V.</p>
+				<button class="botao-trailer">view trailer</button>
+			</div>
+			<img class="sailor-moon" src="./src/imagens/sailor-moooon.png" />
+
+			<div class="modal">
+				<div class="conteudo-modal">
+					<span class="fechar-modal">X</span>
+					<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/kGD2zb_8HAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+		</main>
+
+		<script src="./src/js/index.js"></script>
+	</body>
+</html>
